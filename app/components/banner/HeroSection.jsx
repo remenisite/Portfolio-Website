@@ -1,7 +1,7 @@
 "use client";
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
+import IconSection from "./IconSection";
 
 const HeroSection = () => {
   return (
@@ -28,16 +28,9 @@ const HeroSection = () => {
               Contact Me
             </Link>
           </div>
+          <IconSection />
 
-          {/* Social Icons */}
-          <div className="flex gap-[20px]">
-            <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center  justify-center">  <Link href="#"><FaGithub className="text-[22px] text-text" /></Link> </li>
-            <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center  justify-center">  <Link href="#"><FaGithub className="text-[22px] text-text" /></Link> </li>
-            <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center  justify-center">  <Link href="#"><FaGithub className="text-[22px] text-text" /></Link> </li>
-            <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center  justify-center">  <Link href="#"><FaGithub className="text-[22px] text-text" /></Link> </li>
-            {/* <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center  justify-center">  <Link href="#"><FaGithub className="text-[22px] text-text" /></Link> </li> */}
 
-          </div>
         </div>
         {/* Right Image */}
         <div className="">
