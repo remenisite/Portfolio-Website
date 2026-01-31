@@ -7,8 +7,6 @@ import {
 const RightSection = () => {
   return (
     <>
-    
-            {/* Right Form */}
         <form className="">
           <input
             type="text"
