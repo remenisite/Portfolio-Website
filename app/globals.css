@@ -8,7 +8,7 @@
 @import "tailwindcss";
 
 body {
-  background: red;
+  background: url("../public/iamges/LandingPage.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
