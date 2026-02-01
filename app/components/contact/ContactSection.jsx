@@ -1,16 +1,17 @@
 "use client";
 
+import ContactForm from "./ContactForm";
 import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
 
 const ContactSection = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-black pt-[57px] pb-[90px]">
       <div className="container  grid grid-cols-2">
 
         <LeftSection />
-        <RightSection />
-
+        <ContactForm />
+        
 
       </div>
     </section>

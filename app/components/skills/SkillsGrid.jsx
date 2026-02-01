@@ -40,10 +40,10 @@ const skills = [
 
 const SkillsGrid = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-black pt-[120px]">
       <div className="container text-center ">
         <h2 className="text-[24px] fonr-normal font-main text-white">My <span className="text-text"> Talent</span></h2>
-        <h3 className="text-[40px] font-medium font-main text-white mt-[12px]">Professional Skills</h3>
+        <h3 className="text-[40px] font-medium font-main text-white mt-[12px] mb-[64px]">Professional Skills</h3>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-[20px] ">
           {skills.map(({ name, Icon }, index) => (
