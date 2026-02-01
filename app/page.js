@@ -4,7 +4,9 @@ import AboutMe from './components/about/AboutMe'
 import Services from './components/services/Services'
 import SkillsGrid from './components/skills/SkillsGrid'
 import ContactSection from './components/contact/ContactSection'
-import ProjectSection from './components/projects/ProjectSection'
+
+import Project from './components/projects/Project'
+import EducationAccordion from './components/Accordions/EducationAccordion'
 
 const page = () => {
   return (
@@ -13,8 +15,9 @@ const page = () => {
       <AboutMe />
       <Services />
       <SkillsGrid />
-      <ProjectSection />
+      <Project />
       <ContactSection />
+      <EducationAccordion />
     </div>
   )
 }

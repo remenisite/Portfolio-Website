@@ -1,15 +1,17 @@
 // components/ProjectSection.jsx
+import Image from "next/image";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const ProjectSection = () => {
   return (
-    <section className="bg-black">
+ 
+     
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-[120px] items-center">
-        
         {/* Left: Project Image */}
         <div className="">
-          <div className="w-[616px] h-[421px] bg-[#1e1e1e9a] rounded-[10px] border border-[#444444]">
-         
+          <div className="w-[616px] h-[421px] bg-[#1e1e1e9a] flex items-center justify-center rounded-[10px] border border-[#444444]">
+            <Image src={'/images/logo.png'} alt="img" width={593} height={341} className="bg-red-50" />
+      
           </div>
         </div>
 
@@ -42,7 +44,6 @@ const ProjectSection = () => {
         </div>
 
       </div>
-    </section>
   );
 };
 
