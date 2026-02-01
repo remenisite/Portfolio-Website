@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <>
 
-       <section className="bg-black pt-[130px] pb-[60px]">
+       <section className=" pt-[130px] pb-[60px]">
     
     <div className="text-center">
         <h2 className="text-[24px] fonr-normal font-main text-white">My <span className="text-text"> Talent</span></h2>

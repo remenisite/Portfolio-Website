@@ -6,7 +6,7 @@ import LeftSection from "./LeftSection";
 
 const ContactSection = () => {
   return (
-    <section className="bg-black pt-[57px] pb-[90px]">
+    <section className=" pt-[57px] pb-[90px]">
       <div className="container  grid grid-cols-2">
 
         <LeftSection />

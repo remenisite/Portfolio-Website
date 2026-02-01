@@ -5,7 +5,7 @@ import IconSection from "./IconSection";
 
 const HeroSection = () => {
   return (
-    <section className="bg-black text-white pb-[137px] pt-[100px]">
+    <section className=" text-white pb-[137px] pt-[100px]">
       <div className="container flex justify-between items-end">
         {/* Left Content */}
         <div className="">
