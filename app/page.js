@@ -7,6 +7,7 @@ import ContactSection from './components/contact/ContactSection'
 
 import Project from './components/projects/Project'
 import EducationAccordion from './components/Accordions/EducationAccordion'
+import Experience from './components/Experience/Experience'
 
 const page = () => {
   return (
@@ -14,10 +15,10 @@ const page = () => {
       <HeroSection />
       <AboutMe />
       <Services />
+      <Experience />
       <SkillsGrid />
       <Project />
       <ContactSection />
-      <EducationAccordion />
     </div>
   )
 }

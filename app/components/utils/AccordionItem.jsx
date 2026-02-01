@@ -13,17 +13,17 @@ const AccordionItem = ({ title, subtitle, date, content, isOpen, onToggle }) => 
       </button>
 
       {/* Header */}
-      <div className="flex flex-col gap-1">
-        <h3 className="text-white font-semibold">{title}</h3>
-        <div className="flex justify-between text-sm italic text-gray-400">
+      <div className="flex flex-col">
+        <h3 className="text-[24px] font-bold font-main text-white">{title}</h3>
+        <div className="flex justify-between my-[35px] text-[24px] font-normal font-kalam text-white">
           <span>{subtitle}</span>
-          <span>{date}</span>
+          <span className="text-[20px]">{date}</span>
         </div>
       </div>
 
       {/* Content */}
       {isOpen && (
-        <p className="mt-4 text-gray-400 max-w-xl leading-relaxed">
+        <p className="text-[18px] font-normal font-main text-white max-w-xl leading-relaxed">
           {content}
         </p>
       )}
