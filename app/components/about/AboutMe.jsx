@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const AboutMe = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-black pb-[130px]">
       <div className="container flex justify-between items-center ">
         {/* Left Image */}
         <div className="">
-          <div className="w-[480px] h-[554px] border-15 border-green-400  rounded-[10px] bg-red-200 ">
+          <div className="w-[460px] h-[554px] bg-[#131313] border-15 border-[#1E1E1E]  rounded-[10px] ">
             <Image
-              src="/about-photo.png" // Replace with actual image path
+              src="/iamges/aboutImg.png" // Replace with actual image path
               alt="Wilson Kinyua"
               width={256}
               height={256}
@@ -23,7 +23,7 @@ const AboutMe = () => {
         <div className="">
           <h2 className="text-[20px] font-normal font-main text-[#ffffffa6] mb-[30px]">About Me</h2>
           <h3 className="text-[40px] font-normal font-main text-text w-[500px]">Driven, <span className="text-white">innovative</span> <span className="text-white">Software</span> Engineer</h3>
-          <p className="w-[734px] text-[20px] font-normal font-main text-white py-[20px]">
+          <p className="w-[690px] text-[20px] font-normal font-main text-white py-[20px]">
             More than 5 years Experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organisational objectives.
           </p>
 

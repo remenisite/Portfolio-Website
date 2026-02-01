@@ -39,10 +39,10 @@ const Services = () => {
     <section className="bg-black ">
       <div className="container text-center">
         <h2 className="text-[24px] font-normal font-main text-white">I like to make things easy and fun</h2>
-        <h3 className="w-[600px] px-[30px] text-center text-[40px] font-medium font-main text-white">My <span className="text-text"> Special Services</span> For your Business <span className="text-text"> Development</span></h3>
+        <h3 className=" px-[30px] text-center text-[40px] font-medium font-main mt-[40px] text-white">My <span className="text-text"> Special Services</span> For your <br /> Business <span className="text-text"> Development</span></h3>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-[70px]">
           {services.map((service, index) => (
             <div key={index} className="bg-[#1E1E1E] py-[35px] rounded-[10px] text-center flex justify-center flex-col items-center">
               <div className="text-text text-[50px]">{service.icon}</div>
