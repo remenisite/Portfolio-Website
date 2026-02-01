@@ -2,7 +2,7 @@
 
 import ContactForm from "./ContactForm";
 import LeftSection from "./LeftSection";
-import RightSection from "./RightSection";
+
 
 const ContactSection = () => {
   return (
