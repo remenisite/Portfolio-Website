@@ -15,12 +15,12 @@ const Experience = () => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-between gap-[300px] ">
-          <div className="space-y-8">
+        <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 justify-between gap-[300px] ">
+          <div data-aos="fade-up" className="space-y-8">
             <EducationAccordion Education={"Education"} />
             <EducationAccordion />
           </div>
-          <div className="space-y-8">
+          <div data-aos="fade-up" className="space-y-8">
             <EducationAccordion Education={"Experience"} />
             <EducationAccordion />
           </div>

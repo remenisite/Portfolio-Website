@@ -6,13 +6,10 @@ import LeftSection from "./LeftSection";
 
 const ContactSection = () => {
   return (
-    <section className=" pt-[57px] pb-[90px]">
+    <section data-aos="fade-up" className=" pt-[57px] pb-[90px]">
       <div className="container  grid grid-cols-2">
-
         <LeftSection />
         <ContactForm />
-        
-
       </div>
     </section>
   );
