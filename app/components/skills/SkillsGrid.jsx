@@ -16,9 +16,6 @@ const skills = [
   { name: "Figma", img: "/iamges/react-js.png" },
   { name: "Django", img: "/iamges/react-js.png" },
   { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  // { name: "Bootstrap", Icon: FaBootstrap },
-  // { name: "jQuery", Icon: SiJquery },
-  // { name: "WordPress", Icon: FaWordpress },
 ];
 
 const SkillsGrid = () => {
