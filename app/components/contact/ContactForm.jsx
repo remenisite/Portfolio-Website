@@ -5,7 +5,7 @@ import {
   FaRegEdit,
   FaPaperPlane,
 } from "react-icons/fa";
-import InputField from "./InputField";
+import InputField from "../ui/InputField";
 import TextAreaField from "./TextAreaField";
 
 
