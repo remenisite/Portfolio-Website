@@ -4,12 +4,18 @@ import AboutMe from "./components/about/AboutMe";
 import Services from "./components/services/Services";
 import SkillsGrid from "./components/skills/SkillsGrid";
 import ContactSection from "./components/contact/ContactSection";
-
 import Project from "./components/projects/Project";
 import EducationAccordion from "./components/Experience/EducationAccordion";
 import Experience from "./components/Experience/Experience";
 
+import AOS from 'aos'
+import "aos/dist/aos.css";
+
+
 const page = () => {
+
+
+
   return (
     <div>
       <HeroSection />
