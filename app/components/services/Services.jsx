@@ -36,7 +36,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className=" ">
+    <section data-aos="fade-up" className=" ">
       <div className="container text-center">
         <h2 className="text-[24px] font-normal font-main text-white">I like to make things easy and fun</h2>
         <h3 className=" px-[30px] text-center text-[40px] font-medium font-main mt-[40px] text-white">My <span className="text-text"> Special Services</span> For your <br /> Business <span className="text-text"> Development</span></h3>
