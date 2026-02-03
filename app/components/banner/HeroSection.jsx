@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import IconSection from "./IconSection";
+import Button from "../ui/Button";
+import { FaDownload, FaEnvelope } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
@@ -21,12 +23,8 @@ const HeroSection = () => {
 
           {/* Buttons */}
           <div className="flex gap-4 mt-[38px] mb-[52px]">
-            <Link href="#" className="border-text border px-[20px] py-[18px] rounded-[10px] hover:bg-text transition duration-300 text-[20px] font-normal font-main text-white">
-              Download Resume
-            </Link>
-            <Link href="#" className="border-text border px-[20px] py-[22px] rounded-[10px] hover:bg-text transition duration-300 text-[20px] font-normal font-main text-white">
-              Contact Me
-            </Link>
+        <Button text="Download Resume" />
+       <Button text="Contact Me" />
           </div>
           <IconSection />
         </div>

@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa";
 import InputField from "../ui/InputField";
 import TextAreaField from "./TextAreaField";
+import Button from "../ui/Button";
 
 
 
@@ -25,13 +26,7 @@ const ContactForm = () => {
           <InputField label="Subject" placeholder="Subject" icon={FaRegEdit}   />
 
           <TextAreaField    label="Message" placeholder="Write your message..." />
-
-                   <button
-            type="submit"
-            className="flex items-center gap-2 bg-pink-500 text-white px-6 py-3 rounded hover:bg-pink-600 transition duration-300 font-semibold"
-          >
-            <FaPaperPlane /> Send Message
-          </button>
+          <Button text='Send Message' />
         </form>
       </div>
     

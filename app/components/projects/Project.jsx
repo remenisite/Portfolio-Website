@@ -1,5 +1,7 @@
 import React from "react";
 import ProjectSection from "./ProjectSection";
+import Button from "../ui/Button";
+import { IoArrowForward } from "react-icons/io5";
 
 const Project = () => {
   return (
@@ -19,6 +21,8 @@ const Project = () => {
           <ProjectSection />
           <ProjectSection />
         </div>
+                  <div className="mt-[50px] text-center flex justify-center"> <Button text="More Project's" icon={IoArrowForward} />  </div>
+
       </section>
     </>
   );

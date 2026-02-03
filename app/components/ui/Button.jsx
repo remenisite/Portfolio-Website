@@ -5,20 +5,20 @@ const Button = ({ text, icon: Icon, onClick }) => {
     <button
       onClick={onClick}
       className="
-        flex items-center gap-2
-        px-6 py-2
-        border border-pink-500
-        text-pink-500
+        flex items-center justify-center gap-2
+        px-6 py-[20px]
+        border border-text
+        text-[20px] font-normal font-main text-white
         rounded-lg
         transition-all duration-300 ease-in-out
-        hover:bg-pink-500 hover:text-white
-        focus:bg-pink-500 focus:text-white
+        hover:bg-text hover:text-white
+        focus:bg-text focus:text-white
         active:scale-95
         text-sm sm:text-base
       "
     >
-      {Icon && <Icon className="text-lg" />}
       {text}
+      {Icon && <Icon className="text-lg" />}
     </button>
   );
 };
