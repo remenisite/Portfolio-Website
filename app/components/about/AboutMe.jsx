@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const AboutMe = () => {
   return (
-    <section className=" pb-[130px]">
+    <section data-aos="fade-up" className=" pb-[130px]">
       <div className="container flex justify-between items-center ">
         {/* Left Image */}
         <div className="">

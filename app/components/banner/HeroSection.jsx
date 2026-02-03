@@ -9,14 +9,14 @@ const HeroSection = () => {
       <div className="container flex justify-between items-end">
         {/* Left Content */}
         <div className="">
-          <p className="text-[20px] font-normal font-main text-[#ffffffa6] uppercase">Hello, my name is</p>
-          <h1 className="text-4xl md:text-[64px] font-semibold font-main mt-[41px] mb-[21px]  text-text">
+          <p data-aos="fade-right" className="text-[20px] font-normal font-main text-[#ffffffa6] uppercase">Hello, my name is</p>
+          <h1 data-aos="fade-right"  className="text-4xl md:text-[64px] font-semibold font-main mt-[41px] mb-[21px]  text-text">
             Antor <span className="text-white">Karmoker</span>
             
           </h1>
-          <h2 className="text-[20px] font-normal font-main text-[#ffffffa6]">Software Engineer</h2>
-          <p className="w-[676px] text-[20px] font-normal font-main text-white mt-[51px]">
-            From Nairobi, Kenya. I have rich experience in development cycle for dynamic web projects, app development, and I am also proficient in UX/UI design.
+          <h2 data-aos="fade-right" className="text-[20px] font-normal font-main text-[#ffffffa6]">Javascript Developer</h2>
+          <p data-aos="fade-right" className="w-[676px] text-[20px] font-normal font-main text-white mt-[51px]">
+            From Dhaka,Bangladesh. I have rich experience in development cycle for dynamic web projects, app development, and I am also proficient in UX/UI design.
           </p>
 
           {/* Buttons */}
@@ -29,8 +29,6 @@ const HeroSection = () => {
             </Link>
           </div>
           <IconSection />
-
-
         </div>
         {/* Right Image */}
         <div className="">

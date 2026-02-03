@@ -17,7 +17,7 @@ useEffect(() => { Aos.init({ duration: 1000,}) }, [])
         </div>
 
         {/* Menu */}
-        <ul data-aos="flip-left" className="hidden md:flex space-x-6 text-[24px] font-semibold font-main text-[#ffffffa6]">
+        <ul data-aos="zoom-in" className="hidden md:flex space-x-6 text-[24px] font-semibold font-main text-[#ffffffa6]">
           <li><Link href="#" className="flex items-center gap-1 hover:text-text duration-300"> Home</Link></li>
           <li><Link href="#" className="flex items-center gap-1 hover:text-text duration-300"> About</Link></li>
           <li><Link href="#" className="flex items-center gap-1 hover:text-text duration-300"> Services</Link></li>

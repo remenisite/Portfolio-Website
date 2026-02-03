@@ -12,7 +12,7 @@ const IconSection = () => {
     <>
     
           {/* Social Icons */}
-          <div className="flex gap-[20px]">
+          <div data-aos="zoom-in-down" className="flex gap-[20px]">
             <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center  justify-center">  <Link href="#"><FiGithub className="text-[22px] text-text" /></Link> </li>
             <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center  justify-center">  <Link href="#"><LuLinkedin className="text-[22px] text-text" /></Link> </li>
             <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center  justify-center">  <Link href="#"><FiMail className="text-[22px] text-text" /></Link> </li>
