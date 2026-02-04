@@ -1,6 +1,5 @@
 "use client";
-import { IoArrowForward } from "react-icons/io5";
-import Button from "../ui/Button";
+import React from 'react'
 import Image from "next/image";
 
 const skills = [
@@ -18,16 +17,12 @@ const skills = [
   { name: "Tailwind CSS", img: "/iamges/react-js.png" },
 ];
 
-const SkillsGrid = () => {
+
+const page = () => {
   return (
-    <section id="skill" data-aos="fade-up" className=" pt-[120px]">
+    <>
+        <section data-aos="fade-up" className=" pt-[120px]">
       <div className="container text-center ">
-        <h2 className="text-[24px] fonr-normal font-main text-white">
-          My <span className="text-text"> Talent</span>
-        </h2>
-        <h3 className="text-[40px] font-medium font-main text-white mt-[12px] mb-[64px]">
-          Professional Skills
-        </h3>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-[20px]  ">
           {skills.map(({ name, img }, index) => (
@@ -40,12 +35,12 @@ const SkillsGrid = () => {
             </div>
           ))}
         </div>
-        <div className="mt-[50px] text-center flex justify-center">
-          <Button text="View more" icon={IoArrowForward} />
-        </div>
+
       </div>
     </section>
-  );
-};
+    
+    </>
+  )
+}
 
-export default SkillsGrid;
+export default page

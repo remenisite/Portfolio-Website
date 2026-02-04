@@ -6,7 +6,7 @@ import { IoArrowForward } from "react-icons/io5";
 const Project = () => {
   return (
     <>
-      <section data-aos="fade-up" className=" pt-[130px] pb-[60px]">
+      <section id="project" data-aos="fade-up" className=" pt-[130px] pb-[60px]">
         <div className="text-center">
           <h2 className="text-[24px] fonr-normal font-main text-white">
             My <span className="text-text"> Talent</span>

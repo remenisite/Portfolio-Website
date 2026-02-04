@@ -3,7 +3,7 @@ import EducationAccordion from "./EducationAccordion";
 
 const Experience = () => {
   return (
-    <section data-aos="fade-up" className=" pt-[130px] px-6">
+    <section id="resume" data-aos="fade-up" className=" pt-[130px] px-6">
       <div className="container ">
         <div className="text-center mb-16">
           <h2 className="text-[24px] font-normal font-main text-white">
