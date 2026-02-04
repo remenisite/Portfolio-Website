@@ -25,7 +25,6 @@ const LeftSection = () => {
 
           {/* Highlights */}
           <ul className="space-y-2 text-[20px] font-normal font-main text-white mb-[53px]">
-            <li className="flex items-center gap-2"><FaCheck className="text-pink-500" /> 5+ Years of Experience</li>
             <li className="flex items-center gap-2"><FaCheck className="text-pink-500" /> Professional Web Designer</li>
             <li className="flex items-center gap-2"><FaCheck className="text-pink-500" /> Mobile Apps Design</li>
             <li className="flex items-center gap-2"><FaCheck className="text-pink-500" /> Technical Mentor</li>

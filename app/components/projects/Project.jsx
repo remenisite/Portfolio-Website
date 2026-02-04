@@ -24,10 +24,10 @@ const Project = () => {
           </h3>
         </div>
         <div className="flex flex-col gap-[70px]">
-          <ProjectSection protitle={'e-commarce'} proH2={"nexton"}   ProP={"frontend"}  Prodis={ "a e-commarce website using react.js tailwind css npm fatching api"  }   />
-          <ProjectSection flexdirection={"lg:flex-row-reverse"} />
-          <ProjectSection />
-          <ProjectSection flexdirection={"lg:flex-row-reverse"} />
+          <ProjectSection mainImg="/iamges/nexton.png" protitle={'e-commarce'} proH2={"nexton"}   ProP={"frontend"}  Prodis={ "a e-commarce website using react.js tailwind css npm fatching api"  }   />
+          <ProjectSection flexdirection={"lg:flex-row-reverse"} mainImg="/iamges/canvix.png" protitle={'e-commarce'} proH2={"canvix"}   ProP={"frontend"}  Prodis={ "a e-commarce website using react.js tailwind css npm fatching api"  }   />
+          <ProjectSection mainImg="/iamges/comfort.png" protitle={'e-commarce'} proH2={"comfort"}   ProP={"frontend"}  Prodis={ "a e-commarce website using react.js tailwind css npm fatching api"  }   />
+          <ProjectSection flexdirection={"lg:flex-row-reverse"} mainImg="/iamges/url.png" protitle={'URL'} proH2={"Shortner"}   ProP={"Backend"}  Prodis={ "a e-commarce website using react.js tailwind css npm fatching api"  }   />
         </div>
         <div className="mt-[50px] text-center flex justify-center">
           {" "}

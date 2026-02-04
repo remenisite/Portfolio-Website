@@ -7,12 +7,24 @@ const page = () => {
   return (
     <>
 
-        <div className="flex flex-col gap-[70px] pb-[100px]">
-          <ProjectSection proH2={'nexton'} ProP={'website'} Prodis={'a e-commarce website using react.js tailwind css npm fatching api'} flexdirection={"flex-row-reverse"} />
-          <ProjectSection flexdirection={'flex-row-reverse'} />
-          <ProjectSection />
-          <ProjectSection />
-        </div>
+        <div className="flex flex-col gap-[70px] pb-[100px] pt-[200px]">
+          <ProjectSection proH2={'Upcoming'}  />
+          <ProjectSection proH2={'Upcoming'}  flexdirection={"lg:flex-row-reverse"} />
+          <ProjectSection  proH2={'Upcoming'}   />
+          <ProjectSection  proH2={'Upcoming'} flexdirection={"lg:flex-row-reverse"}  />
+           </div>
+          <div className="flex flex-col gap-[70px] pb-[100px] pt-[200px]">
+          <ProjectSection  proH2={'Upcoming'}    />
+          <ProjectSection proH2={'Upcoming'}  flexdirection={"lg:flex-row-reverse"} />
+          <ProjectSection  proH2={'Upcoming'}   />
+          <ProjectSection  proH2={'Upcoming'} flexdirection={"lg:flex-row-reverse"}  />
+          </div>
+          <div className="flex flex-col gap-[70px] pb-[100px] pt-[200px]">
+          <ProjectSection  proH2={'Upcoming'} />
+          <ProjectSection proH2={'Upcoming'}  flexdirection={"lg:flex-row-reverse"} />
+          <ProjectSection  proH2={'Upcoming'}   />
+          <ProjectSection proH2={'Upcoming'}  flexdirection={"lg:flex-row-reverse"} />
+            </div>
 
     </>
   )

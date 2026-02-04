@@ -1,7 +1,14 @@
 import Image from "next/image";
 import { FiArrowUpRight } from "react-icons/fi";
 
-const ProjectSection = ({ proH2, protitle, ProP, Prodis, flexdirection }) => {
+const ProjectSection = ({
+  mainImg,
+  proH2,
+  protitle,
+  ProP,
+  Prodis,
+  flexdirection,
+}) => {
   return (
     <div
       className={`container flex flex-col lg:flex-row gap-[120px] items-center ${flexdirection ?? ""}`}
@@ -10,7 +17,7 @@ const ProjectSection = ({ proH2, protitle, ProP, Prodis, flexdirection }) => {
       <div>
         <div className="w-[616px] h-[421px] bg-[#1e1e1e9a] flex items-center justify-center rounded-[10px] border border-[#444444]">
           <Image
-            src={"/images/logo.png"}
+            src={mainImg}
             alt="img"
             width={593}
             height={341}
@@ -26,8 +33,8 @@ const ProjectSection = ({ proH2, protitle, ProP, Prodis, flexdirection }) => {
         </span>
 
         <h2 className="text-3xl md:text-[40px] font-normal font-main leading-snug">
-         {protitle}   <br /> {proH2}
-         </h2>
+          {protitle} <br /> {proH2}
+        </h2>
 
         <p className="text-[20px] font-normal font-main text-white max-w-md">
           {Prodis}

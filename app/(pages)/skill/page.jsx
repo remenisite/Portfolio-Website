@@ -3,48 +3,56 @@ import React from 'react'
 import Image from "next/image";
 
 const skills = [
-  { name: "JavaScript", img: "/iamges/javascript.png" },
-  { name: "TypeScript", img: "/iamges/typescript.png" },
-  { name: "React", img: "/iamges/react-js.png" },
+
+  { name: "Angular", img: "/iamges/angular.png" },
+  { name: "API", img: "/iamges/api.png" },
   { name: "Bootstrap", img: "/iamges/bootstrap.png" },
-  { name: "Html", img: "/iamges/react-js.png" },
-  { name: "Next.js", img: "/iamges/react-js.png" },
-  { name: "CSS", img: "/iamges/react-js.png" },
-  { name: "Angular", img: "/iamges/react-js.png" },
-  { name: "Laravel", img: "/iamges/react-js.png" },
-  { name: "Figma", img: "/iamges/react-js.png" },
-  { name: "Django", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Chakra UI", img: "/iamges/chakra-ui.png" },
+  { name: "ChatGPT", img: "/iamges/chatgpt.png" },
+  { name: "CSS3", img: "/iamges/css3.png" },
+  { name: "CSS Grid", img: "/iamges/css-grid.png" },
+  { name: "Cursor AI", img: "/iamges/cursor-ai.png" },
+  { name: "Cypress", img: "/iamges/cypress.png" },
+  { name: "ESLint", img: "/iamges/eslint.png" },
+  { name: "Figma", img: "/iamges/figma.png" },
+  { name: "Git", img: "/iamges/git.png" },
+  { name: "GitHub", img: "/iamges/github.png" },
+  { name: "GitHub Copilot", img: "/iamges/github-copilot.png" },
+  { name: "GitHub Page", img: "/iamges/github-page.png" },
+  { name: "GitLab", img: "/iamges/gitlab.png" },
+  { name: "HTML5", img: "/iamges/html5.png" },
+  { name: "Webpack Icons", img: "/iamges/icons8-webpack-50.png" },
+  { name: "JavaScript", img: "/iamges/javascript.png" },
+  { name: "Jest", img: "/iamges/jest.png" },
+  { name: "JSON", img: "/iamges/json.png" },
+  { name: "Material UI", img: "/iamges/material-ui.png" },
+  { name: "Netlify", img: "/iamges/netlify.png" },
+  { name: "NPM", img: "/iamges/npm.png" },
+  { name: "React JS", img: "/iamges/react-js.png" },
+  { name: "Sass", img: "/iamges/sass.png" },
+  { name: "SCSS", img: "/iamges/scss.png" },
+  { name: "Tailwind CSS", img: "/iamges/tailwind-css.png" },
+  { name: "TypeScript", img: "/iamges/typescript.png" },
+  { name: "Vite", img: "/iamges/vite.png" },
+  { name: "VS Code", img: "/iamges/vs-code.png" },
+  { name: "Vue JS", img: "/iamges/vue-js.png" },
+  { name: "Yarn", img: "/iamges/yarn.png" },
+  { name: "NestJS", img: "/iamges/nest.js.png" },
+  { name: "WordPress", img: "/iamges/wordpress.png" },
+  { name: "Postman", img: "/iamges/postman.png" },
+  { name: "Firebase", img: "/iamges/firebase.png" },
+  { name: "Node.js", img: "/iamges/node-js.png" },
+  { name: "Redux", img: "/iamges/redux.png" },
+  { name: "Vercel", img: "/iamges/vercel.png" }
 ];
+
 
 
 const page = () => {
   return (
     <>
     
-      <div className="container text-center pb-[100px] ">
+      <div className="container text-center pb-[100px] pt-[200px] ">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-[20px]  ">
           {skills.map(({ name, img }, index) => (
             <div

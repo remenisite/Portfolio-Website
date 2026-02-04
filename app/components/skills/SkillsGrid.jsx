@@ -4,18 +4,20 @@ import Button from "../ui/Button";
 import Image from "next/image";
 
 const skills = [
+  { name: "HTML5", img: "/iamges/html5.png" },
+  { name: "CSS3", img: "/iamges/css3.png" },
   { name: "JavaScript", img: "/iamges/javascript.png" },
   { name: "TypeScript", img: "/iamges/typescript.png" },
-  { name: "React", img: "/iamges/react-js.png" },
+
+  { name: "React.js", img: "/iamges/react-js.png" },
+  { name: "Next.js", img: "/iamges/next-js.png" },
+  { name: "Vue.js", img: "/iamges/vue-js.png" },
+  { name: "Angular", img: "/iamges/angular.png" },
+
   { name: "Bootstrap", img: "/iamges/bootstrap.png" },
-  { name: "Html", img: "/iamges/react-js.png" },
-  { name: "Next.js", img: "/iamges/react-js.png" },
-  { name: "CSS", img: "/iamges/react-js.png" },
-  { name: "Angular", img: "/iamges/react-js.png" },
-  { name: "Laravel", img: "/iamges/react-js.png" },
-  { name: "Figma", img: "/iamges/react-js.png" },
-  { name: "Django", img: "/iamges/react-js.png" },
-  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/tailwind-css.png" },
+  { name: "Sass", img: "/iamges/sass.png" },
+  { name: "SCSS", img: "/iamges/scss.png" },
 ];
 
 import { useRouter } from "next/navigation";
