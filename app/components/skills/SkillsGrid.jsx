@@ -32,23 +32,14 @@ const SkillsGrid = () => {
           Professional Skills
         </h3>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-[20px]  ">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-[20px]   ">
           {skills.map(({ name, img }, index) => (
             <div
               key={index}
-              className="bg-[#1E1E1E] w-[190px] h-[200px] rounded-lg flex flex-col items-center justify-center hover:shadow-pink-500/30 transition duration-300"
+              className="bg-[#1E1E1E] w-[190px] h-[200px] hover:pt-[20px] hover:scale-90 rounded-lg flex flex-col items-center justify-center hover:shadow-pink-500/30 transition duration-300"
             >
-              <Image
-                src={img}
-                alt={`${name} logo`}
-                width={50}
-                height={50}
-                className=" object-contain"
-              />
-              <p className="text-[20px] font-bold font-main mt-[18px] text-white">
-                {" "}
-                {name}
-              </p>
+              <Image    src={img}    alt={`${name} logo`}   width={50}   height={50} className=" object-contain" />
+              <p className="text-[20px] font-bold font-main mt-[18px] text-white">  {name}</p>
             </div>
           ))}
         </div>
