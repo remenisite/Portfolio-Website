@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { FiArrowUpRight } from "react-icons/fi";
 
-const ProjectSection = ({ proH2, ProP, Prodis, flexdirection }) => {
+const ProjectSection = ({ proH2, protitle, ProP, Prodis, flexdirection }) => {
   return (
     <div
-      className={`container grid grid-cols-1 lg:grid-cols-2 gap-[120px] items-center ${flexdirection}`}
+      className={`container flex flex-col lg:flex-row gap-[120px] items-center ${flexdirection ?? ""}`}
     >
       {/* Left: Project Image */}
       <div>
@@ -26,8 +26,8 @@ const ProjectSection = ({ proH2, ProP, Prodis, flexdirection }) => {
         </span>
 
         <h2 className="text-3xl md:text-[40px] font-normal font-main leading-snug">
-          {proH2} <br /> {proH2}
-        </h2>
+         {protitle}   <br /> {proH2}
+         </h2>
 
         <p className="text-[20px] font-normal font-main text-white max-w-md">
           {Prodis}

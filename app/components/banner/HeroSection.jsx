@@ -4,6 +4,7 @@ import Link from "next/link";
 import IconSection from "./IconSection";
 import Button from "../ui/Button";
 import { FaDownload, FaEnvelope } from "react-icons/fa";
+import herImg from '../../../public/iamges/my_img.png'
 
 const HeroSection = () => {
   return (
@@ -29,17 +30,14 @@ const HeroSection = () => {
           <IconSection />
         </div>
         {/* Right Image */}
-        <div className="">
-          <div className="w-[430px] h-[430px] rounded-full border-4 border-text overflow-hidden">
-            <Image
-              src="/iamges/my_img.png"
-              alt="Wilson Kinyua"
-              width={500}
-              height={500}
-              className="object-cover "
+          <div className="hidden lg:block lg:w-[350px] lg:h-[350px] xl:w-[450px] xl:h-[450px] relative rounded-full bg-[#ffffffce] overflow-hidden ">
+            <div
+              className="w-[100%] h-[100%] bg-cover bg-center transform transition-transform duration-300 ease-in-out hover:scale-110"
+              style={{
+                backgroundImage: `url(${herImg})`,
+              }}
             />
           </div>
-        </div>
       </div>
     </section>
   );
