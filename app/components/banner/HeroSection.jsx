@@ -31,11 +31,9 @@ const HeroSection = () => {
           </h2>
           <p
             data-aos="fade-right"
-            className="w-[676px] text-[20px] font-normal font-main text-white mt-[51px]"
+            className="w-[411px] text-[20px] font-normal font-main text-white mt-[51px]"
           >
-            From Dhaka,Bangladesh. I have rich experience in development cycle
-            for dynamic web projects, app development, and I am also proficient
-            in UX/UI design.
+       A JavaScript Developer specializes in building interactive, fast, and scalable web applications using JavaScript and modern frameworks.
           </p>
 
           {/* Buttons */}
