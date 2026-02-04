@@ -2,7 +2,7 @@
 import { useState } from "react";
 import AccordionItem from "../utils/AccordionItem";
 
-const EducationAccordion = ({ Education }) => {
+const EducationAccordion = ({ Education , title , subtitle ,date }) => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
@@ -12,14 +12,18 @@ const EducationAccordion = ({ Education }) => {
           {Education}
         </h2>
 
-        <AccordionItem
-          title={"Moringa School"}
-          subtitle={"Software Development"}
-          date={"2021 - 2021"}
-          content={`Diligently attended software development courses,  advancing
-skills and knowledge. With this being a continuous improvement,
-got to learn to contribute effectively in software development roles.`}
-        />
+        
+      {/* Header */}
+      <div className="flex flex-col">
+        <h3 className="text-[24px] font-bold font-main text-white">{title}</h3>
+        <div className="flex justify-between my-[35px] text-[24px] font-normal font-kalam text-white">
+          <span>{subtitle}</span>
+          <span className="text-[20px]">{date}</span>
+        </div>
+      </div>
+ 
+
+
       </div>
     </section>
   );

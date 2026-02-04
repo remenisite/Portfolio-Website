@@ -12,15 +12,6 @@ const AccordionItem = ({ title, subtitle, date, content, isOpen, onToggle }) => 
         {isOpen ? <FiMinus size={14} /> : <FiPlus size={14} />}
       </button>
 
-      {/* Header */}
-      <div className="flex flex-col">
-        <h3 className="text-[24px] font-bold font-main text-white">{title}</h3>
-        <div className="flex justify-between my-[35px] text-[24px] font-normal font-kalam text-white">
-          <span>{subtitle}</span>
-          <span className="text-[20px]">{date}</span>
-        </div>
-      </div>
-
       {/* Content */}
       {isOpen && (
         <p className="text-[18px] font-normal font-main text-white max-w-xl leading-relaxed">

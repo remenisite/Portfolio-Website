@@ -1,9 +1,13 @@
+"use client";
+
 import React from "react";
 import ProjectSection from "./ProjectSection";
 import Button from "../ui/Button";
 import { IoArrowForward } from "react-icons/io5";
+import { useRouter } from "next/navigation";
 
 const Project = () => {
+    const router = useRouter();
   return (
     <>
       <section id="project" data-aos="fade-up" className=" pt-[130px] pb-[60px]">
@@ -19,9 +23,9 @@ const Project = () => {
           <ProjectSection proH2={'nexton'} ProP={'website'} Prodis={'a e-commarce website using react.js tailwind css npm fatching api'} flexdirection={"flex-row-reverse"} />
           <ProjectSection flexdirection={'flex-row-reverse'} />
           <ProjectSection />
-          <ProjectSection />
+          <ProjectSection  flexdirection={'flex-row-reverse'}  />
         </div>
-       <div className="mt-[50px] text-center flex justify-center"> <Button text="More Project's" icon={IoArrowForward} />  </div>
+       <div className="mt-[50px] text-center flex justify-center"> <Button text="More Project's" icon={IoArrowForward}     onClick={() => router.push("/project")} />  </div>
       </section>
     </>
   );
