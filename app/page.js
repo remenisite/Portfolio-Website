@@ -5,9 +5,9 @@ import Services from "./components/services/Services";
 import SkillsGrid from "./components/skills/SkillsGrid";
 import ContactSection from "./components/contact/ContactSection";
 import Project from "./components/projects/Project";
-import EducationAccordion from "./components/Experience/EducationAccordion";
-import Experience from "./components/Experience/Experience";
 import "aos/dist/aos.css";
+import Experience from "./components/Experience/Experience";
+
 
 const page = () => {
 
@@ -17,6 +17,7 @@ const page = () => {
       <AboutMe />
       <Services />
       <Experience />
+
       <SkillsGrid />
       <Project />
       <ContactSection />
