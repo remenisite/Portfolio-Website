@@ -1,12 +1,15 @@
+
 import React from "react";
 import ProjectSection from "./ProjectSection";
 import Button from "../ui/Button";
 import { IoArrowForward } from "react-icons/io5";
 
-const Project = () => {
+
+const page = () => {
   return (
     <>
-      <section id="project" data-aos="fade-up" className=" pt-[130px] pb-[60px]">
+    
+          <section id="project" data-aos="fade-up" className=" pt-[130px] pb-[60px]">
         <div className="text-center">
           <h2 className="text-[24px] fonr-normal font-main text-white">
             My <span className="text-text"> Talent</span>
@@ -24,7 +27,7 @@ const Project = () => {
        <div className="mt-[50px] text-center flex justify-center"> <Button text="More Project's" icon={IoArrowForward} />  </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Project;
+export default page

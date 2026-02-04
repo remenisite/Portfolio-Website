@@ -15,15 +15,36 @@ const skills = [
   { name: "Figma", img: "/iamges/react-js.png" },
   { name: "Django", img: "/iamges/react-js.png" },
   { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
+  { name: "Tailwind CSS", img: "/iamges/react-js.png" },
 ];
 
 
 const page = () => {
   return (
     <>
-        <section data-aos="fade-up" className=" pt-[120px]">
-      <div className="container text-center ">
-
+    
+      <div className="container text-center pb-[100px] ">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-[20px]  ">
           {skills.map(({ name, img }, index) => (
             <div
@@ -35,10 +56,8 @@ const page = () => {
             </div>
           ))}
         </div>
-
       </div>
-    </section>
-    
+
     </>
   )
 }
