@@ -7,7 +7,7 @@ import { FaDownload, FaEnvelope } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <section className=" text-white pb-[137px] pt-[100px]">
+    <section className=" text-white pb-[160px] pt-[200px]">
       <div className="container flex justify-between items-end">
         {/* Left Content */}
         <div className="">

@@ -9,7 +9,7 @@ useEffect(() => { Aos.init({ duration: 1000,}) }, [])
 
 
   return (
-    <header className="  pt-[40px] pb-[46px]">
+    <header className=" w-full fixed z-30 bg-[#1e1e1e92] py-[10px] ">
       <nav className="container flex justify-between items-center">
         {/* Logo */}
         <div>
@@ -18,13 +18,13 @@ useEffect(() => { Aos.init({ duration: 1000,}) }, [])
 
         {/* Menu */}
         <ul data-aos="zoom-in" className="hidden md:flex space-x-6 text-[24px] font-semibold font-main text-[#ffffffa6]">
-          <li><Link href="/" className="flex items-center gap-1 hover:text-text duration-300"> Home</Link></li>
-          <li><Link href="#about" className="flex items-center gap-1 hover:text-text duration-300"> About</Link></li>
-          <li><Link href="#service" className="flex items-center gap-1 hover:text-text duration-300"> Services</Link></li>
-          <li><Link href="#resume" className="flex items-center gap-1 hover:text-text duration-300"> Resume</Link></li>
-          <li><Link href="#skill" className="flex items-center gap-1 hover:text-text duration-300"> Skills</Link></li>
-          <li><Link href="#project" className="flex items-center gap-1 hover:text-text duration-300"> Projects</Link></li>
-          <li><Link href="#contact" className="flex items-center gap-1 hover:text-text duration-300"> Contact</Link></li>
+          <li className="hover:border-b-3 border-text duration-300"><Link href="/" className="flex items-center gap-1 hover:text-text duration-300"> Home</Link></li>
+          <li className="hover:border-b-3 border-text duration-300"><Link href="#about" className="flex items-center gap-1 hover:text-text duration-300"> About</Link></li>
+          <li className="hover:border-b-3 border-text duration-300"><Link href="#service" className="flex items-center gap-1 hover:text-text duration-300"> Services</Link></li>
+          <li className="hover:border-b-3 border-text duration-300"><Link href="#resume" className="flex items-center gap-1 hover:text-text duration-300"> Resume</Link></li>
+          <li className="hover:border-b-3 border-text duration-300"><Link href="#skill" className="flex items-center gap-1 hover:text-text duration-300"> Skills</Link></li>
+          <li className="hover:border-b-3 border-text duration-300"><Link href="#project" className="flex items-center gap-1 hover:text-text duration-300"> Projects</Link></li>
+          <li className="hover:border-b-3 border-text duration-300"><Link href="#contact" className="flex items-center gap-1 hover:text-text duration-300"> Contact</Link></li>
         </ul>
 
         {/* Hire Me Button */}
