@@ -10,7 +10,6 @@ const Accordion = ({
   h2,
   p,
 }) => {
-  // ✅ NEW: normalize data (array OR single props)
   const normalizedItems = items
     ? items
     : [{ id: 1, title, content, h2, p }];

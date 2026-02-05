@@ -8,6 +8,7 @@ const ProjectSection = ({
   ProP,
   Prodis,
   flexdirection,
+  link
 }) => {
   return (
     <div
@@ -42,14 +43,14 @@ const ProjectSection = ({
 
         {/* Icon Button */}
         <div className="pt-4">
-          <button
+          <a href={link} target="_blank"
             className="w-12 h-12 flex items-center justify-center
               rounded-full border border-gray-700
               text-gray-300 hover:bg-white hover:text-black
               transition-all duration-300"
           >
             <FiArrowUpRight size={20} />
-          </button>
+          </a>
         </div>
       </div>
     </div>

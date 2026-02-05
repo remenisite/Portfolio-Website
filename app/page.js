@@ -17,7 +17,6 @@ const page = () => {
       <AboutMe />
       <Services />
       <Experience />
-
       <SkillsGrid />
       <Project />
       <ContactSection />
