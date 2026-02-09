@@ -20,7 +20,7 @@ const AboutMe = () => {
           <h2 className="text-[20px] font-normal font-main text-[#ffffffa6] mb-7.5">About Me</h2>
           <h3 className="text-[40px] font-normal font-main text-text w-[500px]">Driven, <span className="text-white">innovative</span> <span className="text-white">Javascript</span> Developer</h3>
           <p className="w-[690px] text-[20px] font-normal font-main text-white py-[20px]">
-           Focus on building responsive, visually engaging user interfaces using popular frameworks and libraries such as React, Angular, and Vue.js. These tools allow developers to create fast, component-based interfaces that enhance user experience and improve application performance. They ensure websites and applications are mobile-friendly, accessible, and compatible across different browsers and devices. By optimizing load times and improving responsiveness, JavaScript Developers help deliver smooth and intuitive user interactions.
+           Focus on building responsive, visually engaging user interfaces using popular frameworks and libraries such as React, Angular, and Vue.js. These tools allow developers to create fast, component-based interfaces that enhance user experience and improve application performance.
           </p>
 
           {/* Skills List */}

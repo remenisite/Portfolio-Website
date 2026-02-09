@@ -38,7 +38,13 @@ const HeroSection = () => {
 
           {/* Buttons */}
           <div className="flex gap-4 mt-[38px] mb-[52px]">
-            <Button text="Download Resume" />
+                     <a
+              href="/Antor.pdf"
+             download="Antor.pdf"
+              className="  px-6 py-[20px] flex justify-center items-center  text-[20px] font-normal font-main text-white border border-text rounded-[8px] hover:bg-text duration-300  "
+            >
+             Download Resume
+            </a>
             <Button text="Contact Me" />
           </div>
           <IconSection />

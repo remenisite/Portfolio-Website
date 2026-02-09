@@ -18,6 +18,7 @@ const skills = [
   { name: "Tailwind CSS", img: "/iamges/tailwind-css.png" },
   { name: "Sass", img: "/iamges/sass.png" },
   { name: "SCSS", img: "/iamges/scss.png" },
+
 ];
 
 import { useRouter } from "next/navigation";

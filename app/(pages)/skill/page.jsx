@@ -38,12 +38,15 @@ const skills = [
   { name: "Vue JS", img: "/iamges/vue-js.png" },
   { name: "Yarn", img: "/iamges/yarn.png" },
   { name: "NestJS", img: "/iamges/nest.js.png" },
-  { name: "WordPress", img: "/iamges/wordpress.png" },
   { name: "Postman", img: "/iamges/postman.png" },
   { name: "Firebase", img: "/iamges/firebase.png" },
   { name: "Node.js", img: "/iamges/node-js.png" },
   { name: "Redux", img: "/iamges/redux.png" },
-  { name: "Vercel", img: "/iamges/vercel.png" }
+  { name: "Vercel", img: "/iamges/vercel.png" },
+    { name: "React-Native", img: "/iamges/react-native.png" },
+    { name: "Jquery", img: "/iamges/jquery.png" },
+    { name: "Next.js", img: "/iamges/next.js.png" },
+    { name: "Wordpress", img: "/iamges/wordpress.png" },
 ];
 
 

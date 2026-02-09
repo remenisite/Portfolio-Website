@@ -16,7 +16,7 @@ const ProjectSection = ({
     >
       {/* Left: Project Image */}
       <div>
-        <div className="w-[616px] h-[421px] bg-[#1e1e1e9a] flex items-center justify-center rounded-[10px] border border-[#444444]">
+        <div data-aos="fade-right" className="w-[616px] h-[421px]  bg-[#1e1e1e9a] flex items-center justify-center rounded-[10px] border border-[#444444]">
           <Image
             src={mainImg}
             alt="img"
@@ -28,7 +28,7 @@ const ProjectSection = ({
       </div>
 
       {/* Right: Content */}
-      <div className="flex flex-col gap-4 text-gray-200">
+      <div  data-aos="fade-left" className="flex flex-col gap-4 text-gray-200">
         <span className="text-[20px] font-normal font-main text-text uppercase tracking-wider">
           {ProP}
         </span>
