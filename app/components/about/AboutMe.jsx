@@ -28,7 +28,7 @@ const AboutMe = () => {
             <li className="flex items-center gap-2"><FaCheck className="text-pink-500" />Develop dynamic and interactive user interfaces using JavaScript</li>
             <li className="flex items-center gap-2"><FaCheck className="text-pink-500" />Build modern web applications with ES6+ features</li>
             <li className="flex items-center gap-2"><FaCheck className="text-pink-500" />API integration using Fetch API and Axios</li>
-            <li className="flex items-center gap-2"><FaCheck className="text-pink-500" />Secure client-side logic and error handling</li>
+       
           </ul>
         </div>
       </div>

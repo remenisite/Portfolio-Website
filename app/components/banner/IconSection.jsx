@@ -13,7 +13,7 @@ const IconSection = () => {
           <div data-aos="zoom-in-down" className="flex gap-[20px]">
             <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center hover:scale-90  justify-center">  <a href="https://github.com/remenisite" target='_black'><FiGithub className="text-[22px] text-text" /></a> </li>
             <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center  hover:scale-90  justify-center">  <a href="https://www.linkedin.com/in/remenisite/" target='_black' ><LuLinkedin className="text-[22px] text-text" /></a> </li>
-            <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center hover:scale-90 justify-center">  <Link href="#"><FiMail className="text-[22px] text-text" /></Link> </li>
+            <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center hover:scale-90 justify-center">  <a href="antor.web.bd@gmail.com"><FiMail className="text-[22px] text-text" /></a> </li>
             <li className="w-[46px] h-[46px] bg-[#1E1E1E] rounded-[10px] flex items-center  hover:scale-90 justify-center">  <a href="https://x.com/remenisite" target='_black' ><TbBrandTwitter className="text-[22px] text-text" /></a> </li>
           </div>
 
