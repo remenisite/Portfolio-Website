@@ -23,7 +23,6 @@ const Experience = () => {
         <div>
           <div className='text-center mb-[55px]'><h2 className='text-[30px] font-bold font-main text-white'>Experience</h2></div>
           <Accordion   title="Gov't EBT Assest Project's" h2="creative it institute" p="oct-2025 - jan-2026"content="I complated web design with freelancing level-3 (nsda) & complated internship in creative it." />
-          {/* <Accordion   title="Shorten Your Links" h2="Fast & Secure" p="Since 2024"content="This URL shortener helps you create short, shareable links instantly." /> */}
         </div>
         </div>
       </div>

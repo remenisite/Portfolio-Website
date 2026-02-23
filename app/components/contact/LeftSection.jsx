@@ -14,8 +14,6 @@ import IconSection from '../banner/IconSection';
 const LeftSection = () => {
   return (
     <>
-    
-
         {/* Left Info */}
         <div className="space-y-6">
           <h2 className="text-[20px] font-normal font-main text-white">Get In Touch</h2>

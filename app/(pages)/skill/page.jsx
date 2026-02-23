@@ -45,7 +45,6 @@ const skills = [
   { name: "Vercel", img: "/iamges/vercel.png" },
     { name: "React-Native", img: "/iamges/react-native.png" },
     { name: "Jquery", img: "/iamges/jquery.png" },
-    { name: "Next.js", img: "/iamges/next.js.png" },
     { name: "Wordpress", img: "/iamges/wordpress.png" },
 ];
 

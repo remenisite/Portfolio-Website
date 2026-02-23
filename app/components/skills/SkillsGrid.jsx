@@ -10,7 +10,7 @@ const skills = [
   { name: "TypeScript", img: "/iamges/typescript.png" },
 
   { name: "React.js", img: "/iamges/react-js.png" },
-  { name: "Next.js", img: "/iamges/next-js.png" },
+  { name: "Next.js", img: "/iamges/next.js.png" },
   { name: "Vue.js", img: "/iamges/vue-js.png" },
   { name: "Angular", img: "/iamges/angular.png" },
 
