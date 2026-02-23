@@ -5,7 +5,7 @@ const Experience = () => {
 
   return (
     <>
-    <section data-aos="fade-up" className='pt-[130px]'>
+    <section id='resume' data-aos="fade-up" className='pt-[130px]'>
       <div className="container">
         <div className='text-center'>
         <h2 className="text-[24px]  fonr-normal font-main text-white">

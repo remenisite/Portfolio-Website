@@ -30,14 +30,14 @@ const AccordionItem = ({ title, content, h2, p }) => {
     <div className="w-[600px] relative border-t border-r border-text">
       {/* Header */}
       <div className="flex justify-between">
-        <div className="px-[20px]">
+        <div className="px-[20px] ">
           <h2 className="text-[24px] pt-[30px] font-bold font-main text-white">
             {title}
           </h2>
 
           <p className="text-[24px] py-[35px] font-normal font-kalam flex justify-between text-white">
             {h2}
-            <span className="text-[20px] font-normal font-kalam text-white">
+            <span className="text-[20px] pl-[80px] font-normal font-kalam text-white">
               {p}
             </span>
           </p>

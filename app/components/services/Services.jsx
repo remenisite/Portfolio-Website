@@ -58,8 +58,6 @@ const Services = () => {
           My <span className="text-text"> Special Services</span> For your{" "}
           <br /> Business <span className="text-text"> Development</span>
         </h3>
-
-        {/* Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-[70px]">
           {services.map((service, index) => (
             <div

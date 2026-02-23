@@ -6,7 +6,7 @@ import SkillsGrid from "./components/skills/SkillsGrid";
 import ContactSection from "./components/contact/ContactSection";
 import Project from "./components/projects/Project";
 import "aos/dist/aos.css";
-import Experience from "./components/Experience/Experience";
+import Experience from "./components/experience/Experience";
 
 
 const page = () => {

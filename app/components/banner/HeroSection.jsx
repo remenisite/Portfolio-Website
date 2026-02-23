@@ -9,7 +9,6 @@ const HeroSection = () => {
   return (
     <section className=" text-white pb-[160px] pt-[200px]">
       <div className="container flex justify-between items-end">
-        {/* Left Content */}
         <div className="">
           <p
             data-aos="fade-right"
@@ -35,8 +34,6 @@ const HeroSection = () => {
           >
        A JavaScript Developer specializes in building interactive, fast, and scalable web applications using JavaScript and modern frameworks.
           </p>
-
-          {/* Buttons */}
           <div className="flex gap-4 mt-[38px] mb-[52px]">
                      <a
               href="/Antor.pdf"
@@ -45,11 +42,16 @@ const HeroSection = () => {
             >
              Download Resume
             </a>
-            <Button text="Contact Me" />
+            <a
+  href="#contact"
+  className="px-6 py-[20px] flex justify-center items-center text-[20px] font-normal font-main text-white border border-text rounded-[8px] hover:bg-text duration-300"
+>
+  Contact Me
+</a>
+  
           </div>
           <IconSection />
         </div>
-        {/* Right Image */}
         <div className="hidden lg:block lg:w-[350px] lg:h-[350px] xl:w-[450px] xl:h-[450px] relative rounded-full border-4 border-text overflow-hidden ">
           <div
             className="w-[100%] h-[100%] bg-cover bg-center transform transition-transform duration-300 ease-in-out hover:scale-110"
