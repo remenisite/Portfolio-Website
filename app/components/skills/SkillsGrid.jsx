@@ -8,14 +8,14 @@ const skills = [
   { name: "CSS3", img: "/iamges/css3.png" },
   { name: "JavaScript", img: "/iamges/javascript.png" },
   { name: "TypeScript", img: "/iamges/typescript.png" },
-
   { name: "React.js", img: "/iamges/react-js.png" },
   { name: "Next.js", img: "/iamges/next.js.png" },
-
-
+  { name: "ESLint", img: "/iamges/eslint.png" },
+  { name: "Figma", img: "/iamges/figma.png" },
+  { name: "Git", img: "/iamges/git.png" },
+  { name: "GitHub", img: "/iamges/github.png" },
   { name: "Bootstrap", img: "/iamges/bootstrap.png" },
   { name: "Tailwind CSS", img: "/iamges/tailwind-css.png" },
-
 
 ];
 

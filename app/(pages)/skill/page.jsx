@@ -11,10 +11,7 @@ const skills = [
   { name: "CSS Grid", img: "/iamges/css-grid.png" },
   { name: "Cursor AI", img: "/iamges/cursor-ai.png" },
   { name: "Cypress", img: "/iamges/cypress.png" },
-  { name: "ESLint", img: "/iamges/eslint.png" },
-  { name: "Figma", img: "/iamges/figma.png" },
-  { name: "Git", img: "/iamges/git.png" },
-  { name: "GitHub", img: "/iamges/github.png" },
+
   { name: "GitHub Copilot", img: "/iamges/github-copilot.png" },
   { name: "GitHub Page", img: "/iamges/github-page.png" },
   { name: "GitLab", img: "/iamges/gitlab.png" },

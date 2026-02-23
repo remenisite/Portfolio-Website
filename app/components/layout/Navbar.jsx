@@ -3,20 +3,25 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect } from "react";
 import Aos from "aos";
+import ResNavbar from "./ResNavbar";
 
 const Navbar = () => {
 useEffect(() => { Aos.init({ duration: 1000,}) }, [])
-
-
   return (
-    <header className=" w-full fixed z-30 bg-[#1e1e1e92] py-[10px] ">
+
+    <>
+    
+      {/* Mobile / Responsive Navigation */}
+      <div className="block lg:hidden">
+        <ResNavbar />
+        
+      </div>
+
+    <header className=" w-full fixed  hidden lg:block z-30 bg-[#1e1e1e92] py-[10px] ">
       <nav className="container flex justify-between items-center">
-        {/* Logo */}
         <div>
             <Link data-aos="flip-right" href={"/"} ><Image src="/iamges/logo.png" width={60} height={0} alt="logo" /></Link>
         </div>
-
-        {/* Menu */}
         <ul data-aos="zoom-in" className="hidden md:flex space-x-6 text-[24px] font-semibold font-main text-[#ffffffa6]">
           <li className="hover:border-b-3 border-text duration-300"><Link href="/" className="flex items-center gap-1 hover:text-text duration-300"> Home</Link></li>
           <li className="hover:border-b-3 border-text duration-300"><Link href="#about" className="flex items-center gap-1 hover:text-text duration-300"> About</Link></li>
@@ -27,14 +32,18 @@ useEffect(() => { Aos.init({ duration: 1000,}) }, [])
           <li className="hover:border-b-3 border-text duration-300"><Link href="#contact" className="flex items-center gap-1 hover:text-text duration-300"> Contact</Link></li>
         </ul>
 
-        {/* Hire Me Button */}
+
         <div data-aos="fade-up-left">
-          <Link href="#" className="text-[20px] font-medium font-main text-white bg-text pt-2.75 pb-4 rounded-[10px] px-[35px]">
-            Hire Me
-          </Link>
+<a href="https://mail.google.com/mail/?view=cm&to=antor.web.bd@gmail.com" target="_blank"className="text-[20px] font-medium font-main text-white bg-text pt-2.75 pb-4 rounded-[10px] px-[35px]"
+>Hire Me
+</a>
         </div>
       </nav>
+    
     </header>
+    </>
+  
+  
   );
 };
 
